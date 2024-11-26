@@ -1,3 +1,0 @@
-# Java
- 
-I love java.
