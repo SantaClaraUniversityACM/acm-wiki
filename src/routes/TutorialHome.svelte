@@ -28,6 +28,11 @@
             link: "tutorials/javascript",
             imgSrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/640px-JavaScript-logo.png",
         },
+        {
+            name: "Eduroam without desktop",
+            link: "tutorials/eduroam",
+            imgSrc: "https://commons.wikimedia.org/wiki/File:0207a74a86c5255a9d6458e587f1e9e4-flat-wifi-icon-by-vexels.png",
+        },
     ];
 </script>
 
