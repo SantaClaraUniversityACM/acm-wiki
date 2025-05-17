@@ -1,9 +1,9 @@
-# Connecting to eduroam with iwd
+# Connecting to eduroam without a desktop
 
 Written by Alan Fung, 2025.
 
 ## Why might I need to do this?
-When installing a new operating system, you might not have a desktop. Since eduroam requires identity authentication, you cannot simply connected to it with only a password, so we will need a workaround.
+When installing a new operating system, you might not have a desktop. Since eduroam requires identity authentication, you cannot simply connected to it with only a password, so we will need a workaround. Luckily, distributions like Arch come with iwd, Intel's wireless daemon.
 
 ## First, ensure that you are logged in to the root user.
 If not, then `sudo -i`.
@@ -42,4 +42,4 @@ You can check if you are connected by pinging your favorite website:\
 `ping archlinux.org`\
 `ping scuacm.com`
 
-Enjoy your internet access!
+### Enjoy your internet access!
