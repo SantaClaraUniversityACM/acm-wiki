@@ -41,3 +41,5 @@ You can check if you are connected by pinging your favorite website:\
 `ping google.com`\
 `ping archlinux.org`\
 `ping scuacm.com`
+
+Enjoy your internet access!
