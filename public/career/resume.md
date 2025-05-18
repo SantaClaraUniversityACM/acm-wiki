@@ -37,12 +37,12 @@ The template is very commonly used, so it is likely that the person reading your
 A resume is, at it's core, a summary of your academic and professional skills that are relevant for the job that you are applying for. However, you are limited to a single page, so you need to be very careful about what you include. Therefore, I'm going to go over the most important sections of a resume with examples from my own resume.
 
 ### Contact Information
-![Contact Information Section](./contact.png)
+![Contact Information Section](./resume-images/contact.png)
 
 This section is pretty straightforward. It should include your name, professional email address, phone number, and LinkedIn profile at a minimum. You can also include your GitHub profile or personal website if you have one. Make sure to put your legal name as well, as you can see by mine saying "Jakob" instead of "Jake".
 
 ### Experience
-![Experience Section](./experience.png)
+![Experience Section](./resume-images/experience.png)
 
 This section is the most important part of your resume. Ideally, it should include 2-3 relevant work experiences for the position you are applying for. If you don't have any relevant work experience, you can include volunteer work, non-relevant work experience, and anything that may help your candidacy for a job. Each experience should include your job title, the company you worked for, the location of the position, and the dates you worked there.
 
@@ -51,17 +51,17 @@ You should also include bullet points that describe your responsibilities and ac
 This is where the majority of your time should be spent when writing your resume, so consider reaching out to some peers and mentors to get feedback on this part. You can also reach out to ACM or even the Career Center with any questions you may have.
 
 ### Projects
-![Projects Section](./projects.png)
+![Projects Section](./resume-images/projects.png)
 
 As CS students, we have the luxury of sitting down at our computers and making projects whenever we want, very cool! However, that mean employers are going to expect you to have some projects on your resume. This can be anything from a hackathon project (wonder who can help you with that 😉) to a personal or class project. What you're looking for is anything that proves you can code outside of just what's expected of you, using technologies that are more relevant to the industry than things they may teach you in class. When it comes to layout, it's pretty straightforward, but it's always good to include links to GitHub repos, download links, or even Devposts. Like in the experience section, be sure to include relevant technologies, team role if you worked in a team, and the impact of your project.
 
 ### Education
-![Education Section](./education.png)
+![Education Section](./resume-images/education.png)
 
 I like to keep the education section pretty simple, as there isn't much you can do to set yourself apart from others. You should include your school, degree, and expected graduation date. If you have a high GPA (3.5 or higher), feel free to include that as well. Relevant coursework is also a good call, along with any awards and organizations you might be a part of.
 
 ### Skills
-![Skills Section](./skills.png)
+![Skills Section](./resume-images/skills.png)
 
 The skills section is simply a list of all languages, tools, and frameworks you are familiar with. How familiar with a language to put it in this section can be tough, but if you have either used it in a project or are familiar with most of the syntax, even with Google, that's good enough for me. Another thing to consider would be general interests, as this can be a good conversation starter in an interview.
 
