@@ -7,7 +7,8 @@
   import Academics from './routes/Academics.svelte';
   import CSENGlossary from './routes/CSENGlossary.svelte';
   import Career from './routes/Career.svelte';
-  import ResumeGuide from './routes/ResumeGuide.svelte';
+  import ResumeGuide from './routes/CareerGuides.svelte';
+  import CareerGuides from './routes/CareerGuides.svelte';
 
   export let url = "";
   let hidden = true;
@@ -47,7 +48,7 @@
     <Route path="academics"><Academics/></Route>
     <Route path="academics/csen-glossary"> <CSENGlossary/> </Route>
     <Route path="career"><Career/></Route>
-    <Route path="career/resume-guide"> <ResumeGuide/> </Route>
+    <Route path="career/:name" let:params> <CareerGuides name="{params.name}"/> </Route>
   </div>
 </Router>
 

@@ -29,7 +29,8 @@
                 "Silvia Figueria"
             ],
             "winter": [
-                "Angela Musurlian"
+                "Angela Musurlian",
+                "Staff"
             ],
             "spring": [
                 "Hayang Kim"
@@ -75,17 +76,13 @@
         "lab": false,
         "schedule": {
             "fall": [
-                "Josh Grice",
-                "Chi-Yun Hsu",
-                "George Schaeffer"
+                "Staff"
             ],
             "winter": [
-                "Xiang Li",
-                "Chi-Yun Hsu"
+                "Staff"
             ],
             "spring": [
-                "Will Dana",
-                "Reza Shariatmadari"
+                "Staff"
             ]
         },
         "year": 1,
@@ -174,6 +171,12 @@
         "schedule": {
             "fall": [
                 "Krishna Kattiyan Ramamoorthy"
+            ],
+            "winter": [
+                "Jordan Randleman"
+            ],
+            "spring": [
+                "Hien Vu"
             ]
         },
         "year": 3,
@@ -216,16 +219,13 @@
         "lab": false,
         "schedule": {
             "fall": [
-                "Sara Krehbiel",
-                "Venkatesh Srinivasan"
+                "Staff"
             ],
             "winter": [
-                "Venkatesh Srinivasan",
-                "Nicholas Tran"
+                "Staff"
             ],
             "spring": [
-                "Venkatesh Srinivasan",
-                "Nicholas Tran"
+                "Staff"
             ]
         },
         "year": 3,
@@ -416,7 +416,7 @@
     {
         "id": "amth108",
         "name": "AMTH 108",
-        "title": "Linear Algebra",
+        "title": "Probability and Statistics",
         "description": "Definitions of probability, sets, sample spaces, conditional and total probability, random variables, distributions, functions of random variables, sampling, estimation of parameters, testing hypotheses.",
         "lab": false,
         "schedule": {},

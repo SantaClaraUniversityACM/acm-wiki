@@ -2,6 +2,7 @@
     import { marked } from "marked";
     import { onMount } from "svelte";
 
+    let { name } = $props(); 
     let tutorial = $state("<p>file not found</p>");
 
     const renderer = {
@@ -25,8 +26,8 @@
     marked.use({ renderer });
 
     onMount(async () => {
-        document.title = `Resume Guide - SCU ACM Wiki`;
-        const response = await fetch("/career/resume.md");
+        document.title = `${name.replace(/\b\w/g, (c: string) => c.toUpperCase())} - SCU ACM Wiki`;
+        const response = await fetch("/career/"+ name + ".md");
         if (response.ok) {
             const responseContent = await response.text();
             if (responseContent.includes("<!doctype html>")) {
