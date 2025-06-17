@@ -12,7 +12,7 @@
     "@sveltejs/vite-plugin-svelte": "^4.0.1",
     "@types/cytoscape": "^3.21.9",
     "svelte": "^5.2.4",
-    "vite": "^5.4.11"
+    "vite": "5.4.19"
   },
   "dependencies": {
     "@picocss/pico": "^2.0.6",
