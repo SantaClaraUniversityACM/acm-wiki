@@ -4,12 +4,13 @@
     let {name, link, imgSrc} = $props();
 </script>
 
-<Link to={link}>
+
 <div class="card">
     <img src={imgSrc} alt="logo">
+    <Link to={link}>
     <h3>{name}</h3>
+    </Link>
 </div>
-</Link>
 
 <style>
     div.card {
@@ -28,7 +29,7 @@
         color: white;
         text-decoration: underline;
     }
-    div.card:hover h3 {
+    h3:hover {
         color: aqua;
     }
     img {

@@ -2,7 +2,7 @@
   import Home from './routes/Home.svelte';
   import TutorialHome from './routes/TutorialHome.svelte';
   import Tutorials from './routes/Tutorials.svelte';
-  import {Router, Route, link} from 'svelte-routing';
+  import {Router, Route} from 'svelte-routing';
   import NavBar from './components/NavBar.svelte';
   import Academics from './routes/Academics.svelte';
   import CSENGlossary from './routes/CSENGlossary.svelte';
@@ -36,9 +36,7 @@
 
 <Router {url}>
   <header>
-    <h1>
-      <a href="/" use:link class="home">ACM Wiki</a>
-    </h1>
+    <h1>ACM Wiki</h1>
     <NavBar/>
   </header>
   <button class="up" on:click={() => {document.body.scrollIntoView()}} class:hidden>↑</button>
@@ -79,7 +77,6 @@
   h1 {
     margin-block: auto;
     margin-inline: 1rem;
-    color: rgb(194, 199, 208);
   }
   button.up {
     position: fixed;
@@ -94,13 +91,6 @@
   }
   button.up.hidden {
     display: none;
-  }
-  .home {
-    color: white;
-  }
-
-  .home:hover{
-    color:aqua;
   }
 
 </style>
