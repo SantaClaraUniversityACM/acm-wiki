@@ -9,6 +9,11 @@
 
     let tutorials = [
         {
+            name: "Git",
+            link: "tutorials/git",
+            imgSrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/250px-GitHub_Invertocat_Logo.svg.png",
+        },
+        {
             name: "C",
             link: "tutorials/c",
             imgSrc: "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png",
