@@ -9,17 +9,18 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^4.0.1",
+    "@sveltejs/vite-plugin-svelte": "^6.2.1",
     "@types/cytoscape": "^3.21.9",
-    "svelte": "^5.2.4",
-    "vite": "5.4.19"
+    "svelte": "^5.45.2",
+    "vite": "^7.2.4"
   },
   "dependencies": {
-    "@picocss/pico": "^2.0.6",
-    "@types/node": "^22.9.1",
-    "cytoscape": "^3.31.0",
+    "@picocss/pico": "^2.1.1",
+    "@types/node": "^24.10.1",
+    "cytoscape": "^3.33.1",
+    "esbuild": "^0.25.12",
     "husky": "^9.1.7",
-    "marked": "^15.0.1",
+    "marked": "^17.0.1",
     "svelte-routing": "^2.13.0",
     "svelte-select": "^5.8.3"
   }
