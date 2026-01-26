@@ -17,6 +17,7 @@
   "dependencies": {
     "@picocss/pico": "^2.1.1",
     "@types/node": "^24.10.1",
+    "@vercel/analytics": "^1.6.1",
     "cytoscape": "^3.33.1",
     "esbuild": "^0.25.12",
     "husky": "^9.1.7",

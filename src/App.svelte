@@ -1,4 +1,8 @@
 <script lang="js">
+  import { inject } from '@vercel/analytics';
+  inject();
+
+
   import Home from './routes/Home.svelte';
   import TutorialHome from './routes/TutorialHome.svelte';
   import Tutorials from './routes/Tutorials.svelte';
